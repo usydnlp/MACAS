@@ -15,7 +15,7 @@ Download glove embeddings and unzip it: http://nlp.stanford.edu/data/glove.6B.zi
 >glove.6B.100d.txt
 ### 1.3 Train the Model and Make Prediction on the target Dataset
 Please Note:
-- Use xxxxxxxx to generate D embedding
+- Use https://github.com/usydnlp/MACAS/blob/main/Directed%20Abuse%20Embedding.ipynb to generate D embedding
 - Change the MAX_LEN to the max length of your target dataset
 - "sent_text" variable should be a list of original sentences
 ## 2. Generalized Abuse Embedding
@@ -24,14 +24,14 @@ Download the file from https://drive.google.com/file/d/152264axxTfmuYfb_7oWYQJFC
 Download the file from https://drive.google.com/file/d/1059cRocqijTNzrl0UOXkFnngqpEZ54c1/view?usp=sharing
 ## 4. Implicit Abuse Embedding
 ### 4.1 Generate Implicit Input
-Use xxx to generate Implicit Input
+Use https://github.com/usydnlp/MACAS/blob/main/Sarcasm_embedding.ipynb to generate Implicit Input
 ### 4.2 Generate Implicit Embedding
-After running, copy and paste the embedding into a text file "sarcasm_embedding.txt"
+After running https://github.com/usydnlp/MACAS/blob/main/Generate%20Input%20for%20Sarcasm%20Model.ipynb, copy and paste the embedding into a text file "sarcasm_embedding.txt"
 ## 5. User Linguistic Behavior Embedding
-- Use xxxx to get User Linguistic Behavior Embedding
+- Use https://github.com/usydnlp/MACAS/blob/main/User%20Linguistic%20Behavior%20Embedding.ipynb to get User Linguistic Behavior Embedding
 - Change the sentences and raw labels 
 # Final Model
-- Use xxx to do the final model training and prediction
+- Use https://github.com/usydnlp/MACAS/blob/main/Final%20Model.ipynb to do the final model training and prediction
 - Use the target dataset to fill in the "sentence_list" and "label_list"
 - Change the "seq_length" based on your choice
 - Change the "use_gcn" based on whether you want to use User Linguistic Behavior Embedding
