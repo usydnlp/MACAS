@@ -41,4 +41,4 @@ After running [Sarcasm Embedding](https://github.com/usydnlp/MACAS/blob/main/Sar
 - Use [Final Model](https://github.com/usydnlp/MACAS/blob/main/Final%20Model.ipynb) to do the final model training and prediction
 - Use the target dataset to fill in the "sentence_list" and "label_list"
 - Change the "seq_length" based on your choice
-- Change the "use_gcn" based on whether you want to use User Linguistic Behavior Embedding
+- Change the "use_gcn" based on whether you want to use User Linguistic Behavior Embedding 
